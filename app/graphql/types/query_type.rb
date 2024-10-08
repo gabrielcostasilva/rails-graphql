@@ -5,10 +5,10 @@ module Types
     include GraphQL::Types::Relay::HasNodeField
     include GraphQL::Types::Relay::HasNodesField
 
-    field: items,
+    field :items,
     [Types::ItemType],
     null: false,
-    description: "Returns a list of items",
+    description: "Returns a list of items"
 
     def items 
       Item.all
