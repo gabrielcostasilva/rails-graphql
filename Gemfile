@@ -51,5 +51,5 @@ group :development do
 end
 
 
-gem "graphql", "~> 2.3"
+gem "graphql", "~> 2.5"
 gem "graphiql-rails", group: :development
